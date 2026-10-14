@@ -1,15 +1,20 @@
 # Título Proyecto
 
-## Miembros del grupo LX-XXX-X (sustituir)
+## Miembros del grupo L5-AM-4 
 
-1. Apellidos, Nombre
-1. Apellidos, Nombre
-1. Apellidos, Nombre
-1. Apellidos, Nombre
+1. Rodríguez Puente, Carmen
+2. Apellidos, Juan
+3. Apellidos, Carlos
+4. Apellidos, Jesús
 
 ## 1. Introducción al problema
 
-- Descripción del problema para poner en contexto el proyecto, incluyendo información sobre los clientes y usuarios, la situación actual, problemas, expectativas, etc. Se valorará la presencia de información multimedia (fotos, gráficos, documentos escaneados, etc.).
+- Una empresa de clínicas veterinarias, atiende a miles de clientes en diferentes clínicas al mes, tiene dificultades para la gestión de los datos de los usuarios y empleados debido a que todo este proceso es realizado en papel y no pueden compartir estos mismos entre las diferentes clínicas, lo cual genera problema en el tratamiento de distintos animales si sus dueños se mudan o acuden a un tratamiento en alguna clínica distinta a la habitual por cualquier motivo. Además, llevar las cuentas de los productos totales vendidos y llevar un registro sobre las diferentes muestras que son enviadas a los diferentes laboratorios y sus resultados es un problema que está generando muchos gastos de gestión.
+
+
+
+Con la introducción de la base de datos, buscamos agilizar el proceso de búsqueda de datos puesto que esto facilitaría en una amplia medida la eficiencia a la hora de trabajar con distintos clientes al mismo tiempo. A su vez pretendemos reducir los gastos de gestión de las resoluciones de pruebas de los laboratorios al mismo tiempo que guardamos un historial que contenga toda la información del cliente y sus mascotas.
+
 
 ## 2. Glosario de términos
 
