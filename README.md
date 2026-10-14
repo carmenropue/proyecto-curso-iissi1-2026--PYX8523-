@@ -217,23 +217,23 @@ quiero acceder a la siguiente información sobre las **pruebas:**
     - Peso
 
 #### 4.1.2. Reglas de negocio
-#### R.I.01. No eliminar clientes con pagos o pedidos pendientes
+#### R.N.01. No eliminar clientes con pagos o pedidos pendientes
 
 Como recepcionista quiero que no se pueda eliminar el historial de pagos o pedidos de ningún cliente siempre que estos estén pendientes.
 
-#### R.I.02. No solapar citas clínicas
+#### R.N.02. No solapar citas clínicas
 
 Como recepcionista quiero que sea imposible que dos clientes coincidan con una cita para el mismo veterinario a la misma hora.
 
-#### R.I.03. No deben haber dos mascotas con el mismo chip
+#### R.N.03. No deben haber dos mascotas con el mismo chip
 
 Como veterinario es importante que cada mascota se registre con un chip que sea único y no se repita.
 
-#### R.I.04. Un veterinario no puede estar en dos clínicas a la vez
+#### R.N.04. Un veterinario no puede estar en dos clínicas a la vez
 
 Como director general quiero que un mismo veterinario (identificado por su DNI) no pueda estar trabajando a la vez en dos clínicas distintas
 
-#### R.I.05. Dos muestras no pueden tener el mismo ID que las identifique
+#### R.N.05. Dos muestras no pueden tener el mismo ID que las identifique
 
 Como gestor de muestras quiero que cada muestra tenga un ID independiente y que este no pueda repetirse para ninguna otra muestra
 
@@ -242,10 +242,17 @@ Como gestor de muestras quiero que cada muestra tenga un ID independiente y que 
 
 ### 4.3. Requisitos no funcionales (opcional)
 
-**R.N.F. 01. Título requisito no funcional**
-Como [tipo de usuario]
-quiero [servicio]
-para [razón]
+**R.N.F. 01. Control de acceso**
+
+Como director de las clínicas,
+quiero que el sistema esté dividido en diferentes secciones para que solo las personas con autorización puedan acceder a los datos confidenciales de cada cliente,
+para cumplir con la Ley de Protección de Datos
+
+**R.N.F. 02. Disponibilidad garantizada**
+
+Como recepcionista de la clínica,
+quiero poder acceder a los datos de llos clientes y de sus mascotas en todo momento,
+para que mi trabajo sea más eficiente.
 
 -- fin entregable 1 --
 
