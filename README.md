@@ -18,7 +18,7 @@ Con la introducción de la base de datos, buscamos agilizar el proceso de búsqu
 
 ## 2. Glosario de términos
 
-- **Microchip**: Identificador único que se implanta a la mascota, fundamental para su registro.
+- **Microchip**: Dispositivo de identificación por radiofrecuencia, del tamaño de un grano de arroz, insertado en la piel de la mascota.Identificador único que se implanta a la mascota, fundamental para su registro.
 - **Gestor de Muestras**: Persona responsable de llevar el registro de las pruebas de laboratorio resueltas, incluyendo sus fechas de emisión y resolución para cada mascota.
 - **Prueba**: Referido a un análisis de una muestra obtenida de la mascota, a la que luego se le da una resolución en función del tipo.
 - **Muestra**: Parte o detalle obtenida de la mascota que varía en función del tipo de la prueba que se quiera realizar.
