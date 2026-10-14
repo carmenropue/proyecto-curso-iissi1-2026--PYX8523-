@@ -117,6 +117,24 @@ quiero acceder a la siguiente información sobre los **clientes**:
     - Raza
     - Sexo
     - Alergias
+ 
+#### R.I.03. Información como recepcionista
+
+Como director general,
+quiero acceder a la siguiente información sobre mis **clínicas**:
+
+- Localización de la clínica
+- Nombre
+- Fecha de inauguración
+- Recaudación anual
+- Veterinarios
+- Sobre cada veterinario:
+    - Salario
+    - Nombre del veterinario
+    - DNI
+    - Edad
+    - Número de mascotas atendidas al mes
+    - Experiencia anterior a nuestras clínicas
 
 #### 4.1.2. Reglas de negocio
 
