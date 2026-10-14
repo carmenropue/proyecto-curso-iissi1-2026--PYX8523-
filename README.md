@@ -251,7 +251,7 @@ para cumplir con la Ley de Protección de Datos
 **R.N.F. 02. Disponibilidad garantizada**
 
 Como recepcionista de la clínica,
-quiero poder acceder a los datos de llos clientes y de sus mascotas en todo momento,
+quiero poder acceder a los datos de los clientes y de sus mascotas en todo momento,
 para que mi trabajo sea más eficiente.
 
 -- fin entregable 1 --
