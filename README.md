@@ -102,7 +102,7 @@ quiero  disponer de la siguiente información sobre mis mascotas:
 - Raza
 - Sexo
 - Alergias
--Por cada enfermedad o problema:
+- Por cada enfermedad o problema:
     - Medicación necesaria
     - Tiempo que tardó en pasarlo o en su defecto si sigue pasándolo
 
