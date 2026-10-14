@@ -147,12 +147,72 @@ quiero acceder a la siguiente información sobre mis **clínicas**:
     - Edad
     - Número de mascotas atendidas al mes
     - Experiencia anterior a nuestras clínicas
+ 
+#### R.I.04. Información como veterinario
+
+Como veterinario, 
+quiero acceder a la siguiente información sobre mis **clientes:**
+
+- Edad del cliente
+- Nombre del cliente
+- Historial de citas
+- Historial de Pruebas
+- Siguiente cita
+- Mascota que va a ser atendida
+- Para esta mascota:
+    - Nombre de la mascota
+    - Edad de la mascota
+    - Peso
+    - Raza
+    - Sexo
+    - Número del microchip
+    - Historial de pruebas
+    - Historial de vacunas
+    - Fecha de última revisión
+    - Alergias
+    - Problema actual de la mascota
+ 
+#### R.I.04. Información del gestor de pruebas
+
+Como gestor de pruebas,
+quiero acceder a la siguiente información sobre las **pruebas:**
+
+- Estado
+- ID de la prueba
+- Tipo
+- Fecha de emisión
+- Fecha de resolución
+- Resultado
+- Mascota sobre la que se realiza
+- Sobre la mascota:
+    - Microchip
+    - Alergias
+    - Enfermedades pasadas
+    - Nombre
+    - Tamaño
+    - Peso
 
 #### 4.1.2. Reglas de negocio
+#### R.I.01. No eliminar clientes con pagos o pedidos pendientes
 
-##### R.N.01. Título regla negocio
+Como recepcionista quiero que no se pueda eliminar el historial de pagos o pedidos de ningún cliente siempre que estos estén pendientes.
 
-Descripción de la regla de negocio.
+#### R.I.02. No solapar citas clínicas
+
+Como recepcionista quiero que sea imposible que dos clientes coincidan con una cita para el mismo veterinario a la misma hora.
+
+#### R.I.03. No deben haber dos mascotas con el mismo chip
+
+Como veterinario es importante que cada mascota se registre con un chip que sea único y no se repita.
+
+#### R.I.04. Un veterinario no puede estar en dos clínicas a la vez
+
+Como director general quiero que un mismo veterinario (identificado por su DNI) no pueda estar trabajando a la vez en dos clínicas distintas
+
+#### R.I.05. Dos muestras no pueden tener el mismo ID que las identifique
+
+Como gestor de muestras quiero que cada muestra tenga un ID independiente y que este no pueda repetirse para ninguna otra muestra
+
 
 ### 4.2. Mapa de historias de usuario (opcional)
 
