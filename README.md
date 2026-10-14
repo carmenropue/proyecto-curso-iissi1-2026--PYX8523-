@@ -56,12 +56,24 @@ Con la introducción de la base de datos, buscamos agilizar el proceso de búsqu
 ## 4. Catálogo de requisitos
 
 ### 4.1. Requisitos funcionales
+ #### R.F.01.**Modificación lista de citas**:
+  Como recepcionista de la clínica quiero poder eliminar de la lista de citas las consultas ya realizadas y poder añadir nuevas citas.
+  
+  #### R.F.02.**Modificación de lista de trabajadores**:
+  Como Director de la empresa, quiero poder añadir/eliminar trabajadores, así como modificar salario y centro de los mismos.
 
-#### R.F.01. Título requisito funcional
+  #### R.F.03.**Datos técnicos de la mascota**:
+  Como veterinario de la clínica quiero poder añadir a la ficha médica de la mascota los resultados de la consulta, lo pendiente para la         próxima cita y poder modificar algún dato si fuera necesario.
 
-Como [tipo de usuario]
-quiero [servicio]
-para [razón]
+  #### R.F.04.**Página web de la clínica**:
+  Como cliente quiero disponer de una página web en la que pueda pedir cita para mi mascota desde casa, así como poder ver mis datos y los de    cada una de mis mascotas.
+
+  #### R.F.05.**Cuentas de las clínicas**:
+  Como director general quiero poder acceder a las cuentas de cada clínica, de manera semanal, mensual y anual, pudiendo a su vez realizar       gráficas que comparan los ingresos y pérdidas de las mismas.
+
+  #### R.F.06.**Modificar los datos de las pruebas**:
+  Como gestor de muestras quiero tener la posibilidad de acceder a los datos de las pruebas que realicemos y poder modificar los mismos          añadiendo los datos de las muestras analizadas en última instancia.
+
 
 **Prueba de aceptación**
 - Descripción de la primera comprobación a realizar
@@ -144,27 +156,7 @@ Descripción de la regla de negocio.
 
 ### 4.2. Mapa de historias de usuario (opcional)
 
-### 4.3. Requisitos Funcionales
-  -**Modificación lista de citas**:
-  Como recepcionista de la clínica quiero poder eliminar de la lista de citas las consultas ya realizadas y poder añadir nuevas citas.
-  
-  -**Modificación de lista de trabajadores**:
-  Como Director de la empresa, quiero poder añadir/eliminar trabajadores, así como modificar salario y centro de los mismos.
-
-  -**Datos técnicos de la mascota**:
-  Como veterinario de la clínica quiero poder añadir a la ficha médica de la mascota los resultados de la consulta, lo pendiente para la         próxima cita y poder modificar algún dato si fuera necesario.
-
-  -**Página web de la clínica**:
-  Como cliente quiero disponer de una página web en la que pueda pedir cita para mi mascota desde casa, así como poder ver mis datos y los de    cada una de mis mascotas.
-
-  -**Cuentas de las clínicas**:
-  Como director general quiero poder acceder a las cuentas de cada clínica, de manera semanal, mensual y anual, pudiendo a su vez realizar       gráficas que comparan los ingresos y pérdidas de las mismas.
-
-  -**Modificar los datos de las pruebas**:
-  Como gestor de muestras quiero tener la posibilidad de acceder a los datos de las pruebas que realicemos y poder modificar los mismos          añadiendo los datos de las muestras analizadas en última instancia.
-
-
-### 4.4. Requisitos no funcionales (opcional)
+### 4.3. Requisitos no funcionales (opcional)
 
 **R.N.F. 01. Título requisito no funcional**
 Como [tipo de usuario]
