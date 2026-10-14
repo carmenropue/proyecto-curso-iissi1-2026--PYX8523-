@@ -12,8 +12,10 @@
 - Una empresa de clínicas veterinarias, atiende a miles de clientes en diferentes clínicas al mes, tiene dificultades para la gestión de los datos de los usuarios y empleados debido a que todo este proceso es realizado en papel y no pueden compartir estos mismos entre las diferentes clínicas, lo cual genera problema en el tratamiento de distintos animales si sus dueños se mudan o acuden a un tratamiento en alguna clínica distinta a la habitual por cualquier motivo. Además, llevar las cuentas de los productos totales vendidos y llevar un registro sobre las diferentes muestras que son enviadas a los diferentes laboratorios y sus resultados es un problema que está generando muchos gastos de gestión.
 
 
-
 Con la introducción de la base de datos, buscamos agilizar el proceso de búsqueda de datos puesto que esto facilitaría en una amplia medida la eficiencia a la hora de trabajar con distintos clientes al mismo tiempo. A su vez pretendemos reducir los gastos de gestión de las resoluciones de pruebas de los laboratorios al mismo tiempo que guardamos un historial que contenga toda la información del cliente y sus mascotas.
+
+[![Vista previa de la documentación](./preview-pdf.png)](./JJCC1.pdf)
+
 
 
 ## 2. Glosario de términos
@@ -44,6 +46,12 @@ Con la introducción de la base de datos, buscamos agilizar el proceso de búsqu
   Como cliente, quiero que la clínica tenga la información de mi mascota aunque yo haya ido anteriormente a otra clínica del mismo grupo, para que traten a mi mascota con toda la información posible.
 
 ### 3.2. Usuarios del sistema
+- Este sistema pretende ser utilizado por:
+    - **Veterinario**:Encargado de analizar, tratar a las mascotas y notificar sobre sus pruebas y resoluciones de las mismas
+    - **Recepcionista**:Encargado de tomar los primeros datos a los clientes y gestionar próximas citas.
+    - **Director General**:Se encarga de dar de alta a trabajadores, gestionar sus salarios y de posicionar al personal en la clínica correspondiente.
+    - **Cliente**:Interesado en saber todo tipo de datos sobre sus mascotas,su cuidado, próximas citas y vacunación.
+    - **Gestor de muestras**: Persona responsable de llevar el registro de las pruebas de laboratorio resueltas, incluyendo sus fechas de emisión y resolución para cada mascota.
 
 ## 4. Catálogo de requisitos
 
@@ -63,16 +71,52 @@ para [razón]
 
 #### 4.1.1. Requisitos de información
 
-##### R.I.01. Título requisito de información
+#### R.I.01. Información para el cliente
 
-Como [tipo de usuario]
-quiero [servicio]
-para [razón]
+Como cliente de la clínica,
+quiero  disponer de la siguiente información sobre mis mascotas:
 
-**Prueba de aceptación**
-- Descripción de la primera comprobación a realizar
-- Descripción de la segunda comprobación a realizar
-- ...
+- Edad de la mascota
+- Nombre de la mascota
+- Historial de citas
+- Historial de vacunación
+- Fecha de próxima revisión
+- Enfermedades/problemas
+- Historial de Pruebas
+- Número del microchip
+- Peso
+- Tamaño
+- Color
+- Raza
+- Sexo
+- Alergias
+-Por cada enfermedad o problema:
+    - Medicación necesaria
+    - Tiempo que tardó en pasarlo o en su defecto si sigue pasándolo
+
+#### R.I.02. Información como recepcionista
+
+Como recepcionista,
+quiero acceder a la siguiente información sobre los **clientes**:
+
+- Edad del cliente
+- Nombre del cliente
+- DNI
+- Teléfono
+- Correo electrónico
+- Dirección postal
+- Historial de citas
+- Siguiente cita
+- Cantidad de mascotas
+- Para cada mascota:
+    - Nombre de la mascota
+    - Edad de la mascota
+    - Peso
+    - Color
+    - Tamaño
+    - Raza
+    - Sexo
+    - Alergias
 
 #### 4.1.2. Reglas de negocio
 
