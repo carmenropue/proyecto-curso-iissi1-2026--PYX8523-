@@ -253,6 +253,9 @@ Como recepcionista de la clínica,
 quiero poder acceder a los datos de los clientes y de sus mascotas en todo momento,
 para que mi trabajo sea más eficiente.
 
+**R.N.F. 02. Tiempo de respuesta**
+Como recepcionista, quiero que el acceso a los datos de los clientes y sus mascotas se realice de forma rápida y con tiempos de respuesta mínimos, para poder agilizar la búsqueda de información y mejorar la eficiencia al atender a múltiples clientes de forma simultánea. 
+
 -- fin entregable 1 --
 
 ## 5. Modelo conceptual
