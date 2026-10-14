@@ -18,7 +18,8 @@ Con la introducción de la base de datos, buscamos agilizar el proceso de búsqu
 
 ## 2. Glosario de términos
 
-- Términos específicos del dominio del problema, ordenados alfabéticamente. Se valorará la presencia de información multimedia.
+- **Microchip**: Identificador único que se implanta a la mascota, fundamental para su registro.
+- **Gestor de Muestras**: Persona responsable de llevar el registro de las pruebas de laboratorio resueltas, incluyendo sus fechas de emisión y resolución para cada mascota.
 
 ## 3. Visión general del sistema
 
