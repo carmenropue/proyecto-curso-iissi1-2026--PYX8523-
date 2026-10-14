@@ -3,9 +3,9 @@
 ## Miembros del grupo L5-AM-4 
 
 1. Rodríguez Puente, Carmen
-2. Apellidos, Juan
-3. Apellidos, Carlos
-4. Apellidos, Jesús
+2. Alfonso Ramos, Juan
+3. Pacheco Espejo, Carlos
+4. Martín Morano, Jesús
 
 ## 1. Introducción al problema
 
@@ -23,6 +23,21 @@ Con la introducción de la base de datos, buscamos agilizar el proceso de búsqu
 ## 3. Visión general del sistema
 
 ### 3.1. Requisitos generales
+
+#### R.G.01. Gestionar las resoluciones de las muestra
+  Como gestor de muestras de las clínicas, quiero llevar un registro de las pruebas resueltas, con sus respectivas fechas de emisión y resolución,de cada mascota perteneciente a un cliente.
+  
+#### R.G.02. Gestionar los trabajadores de cada clínica
+  Como Director de la empresa, quiero poder llevar el recuento de que trabajadores forman parte de qué clínica, así como poder ver qué tiempo lleva trabajando y su salario.
+  
+#### R.G.03. Gestionar horarios laborales
+  Como gerente de las diferentes clínicas, quiero poder hacer un horario de mis trabajadores y posibles veterinarios de guardia, para que las clínicas siempre estén bien atendidas.
+
+#### R.G.04. Gestión de datos del cliente
+  Como recepcionista de la clínica, quiero poder acceder a los datos de los clientes rápidamente, para mejorar la eficiencia de la clínica.
+
+#### R.G.05. Gestionar las visitas a otras clínicas
+  Como cliente, quiero que la clínica tenga la información de mi mascota aunque yo haya ido anteriormente a otra clínica del mismo grupo, para que traten a mi mascota con toda la información posible.
 
 ### 3.2. Usuarios del sistema
 
