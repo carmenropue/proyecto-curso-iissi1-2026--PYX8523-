@@ -75,35 +75,6 @@ Con la introducción de la base de datos, buscamos agilizar el proceso de búsqu
   Como gestor de muestras quiero tener la posibilidad de acceder a los datos de las pruebas que realicemos y poder modificar los mismos          añadiendo los datos de las muestras analizadas en última instancia.
 
 
-**Prueba de aceptación**
-- Descripción de la primera comprobación a realizar:
-    - Se crea un cliente con un pago pendiente
-    - Intentar eliminar un cliente con un pago pendiente, momento en el que debería saltar un error
-    - Cree un cliente con todo pagado
-    - Eliminarlo y revisar que el primer cliente debe seguir apareciendo en la lista de clientes pues no se puede eliminar y el segundo debe haber desaparecido
-
-- Descripción de la segunda comprobación a realizar:
-    - Se crean dos clientes distintos
-    - Se pide una cita con un cliente en una clínica y a una hora específicas
-    - Con el otro cliente se intenta pedir cita en la misma clínica y a la misma hora que el primer cliente
-    - El segundo cliente recibe un aviso de que esa cita ya está cogida
-
-- Descripción de la tercera comprobación a realizar:
-    - Se añade una mascota al sistema
-    - Se le adjunta un chip a su ficha técnica
-    - Se intenta adjuntar otra mascota con el mismo chip y recibimos un error que nos impide hacerlo
-
-- Descripción de la cuarta comprobación a realizar:
-    - Se añade un veterinario a nuestra base de datos
-    - Dentro de los datos del veterinario se añade su clínica
-    - Se hace el intento de añadir otra clínica sin borrar la anterior y recibimos un error
-
-- Descripción de la quinta comprobación a realizar:
-    - Se crea una muestra con un ID único
-    - Se crea una segunda muestra y se le intenta asignar el mismo ID que la primera muestra.
-    - Se recibe un error porque ese ID ya está asignado a una muestra.
-
-
 #### 4.1.1. Requisitos de información
 
 #### R.I.01. Información para el cliente
@@ -255,6 +226,34 @@ para que mi trabajo sea más eficiente.
 
 **R.N.F. 02. Tiempo de respuesta**
 Como recepcionista, quiero que el acceso a los datos de los clientes y sus mascotas se realice de forma rápida y con tiempos de respuesta mínimos, para poder agilizar la búsqueda de información y mejorar la eficiencia al atender a múltiples clientes de forma simultánea. 
+
+**Pruebas de aceptación**
+- Descripción de la primera comprobación a realizar:
+    - Se crea un cliente con un pago pendiente
+    - Intentar eliminar un cliente con un pago pendiente, momento en el que debería saltar un error
+    - Cree un cliente con todo pagado
+    - Eliminarlo y revisar que el primer cliente debe seguir apareciendo en la lista de clientes pues no se puede eliminar y el segundo debe haber desaparecido
+
+- Descripción de la segunda comprobación a realizar:
+    - Se crean dos clientes distintos
+    - Se pide una cita con un cliente en una clínica y a una hora específicas
+    - Con el otro cliente se intenta pedir cita en la misma clínica y a la misma hora que el primer cliente
+    - El segundo cliente recibe un aviso de que esa cita ya está cogida
+
+- Descripción de la tercera comprobación a realizar:
+    - Se añade una mascota al sistema
+    - Se le adjunta un chip a su ficha técnica
+    - Se intenta adjuntar otra mascota con el mismo chip y recibimos un error que nos impide hacerlo
+
+- Descripción de la cuarta comprobación a realizar:
+    - Se añade un veterinario a nuestra base de datos
+    - Dentro de los datos del veterinario se añade su clínica
+    - Se hace el intento de añadir otra clínica sin borrar la anterior y recibimos un error
+
+- Descripción de la quinta comprobación a realizar:
+    - Se crea una muestra con un ID único
+    - Se crea una segunda muestra y se le intenta asignar el mismo ID que la primera muestra.
+    - Se recibe un error porque ese ID ya está asignado a una muestra.
 
 -- fin entregable 1 --
 
