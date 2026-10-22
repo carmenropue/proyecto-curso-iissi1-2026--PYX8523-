@@ -207,26 +207,6 @@ Como director general quiero que un mismo veterinario (identificado por su DNI) 
 
 Como gestor de muestras quiero que cada muestra tenga un ID independiente y que este no pueda repetirse para ninguna otra muestra
 
-
-### 4.2. Mapa de historias de usuario (opcional)
-
-### 4.3. Requisitos no funcionales (opcional)
-
-**R.N.F. 01. Control de acceso**
-
-Como director de las clínicas,
-quiero que el sistema esté dividido en diferentes secciones para que solo las personas con autorización puedan acceder a los datos confidenciales de cada cliente,
-para cumplir con la Ley de Protección de Datos
-
-**R.N.F. 02. Disponibilidad garantizada**
-
-Como recepcionista de la clínica,
-quiero poder acceder a los datos de los clientes y de sus mascotas en todo momento,
-para que mi trabajo sea más eficiente.
-
-**R.N.F. 02. Tiempo de respuesta**
-Como recepcionista, quiero que el acceso a los datos de los clientes y sus mascotas se realice de forma rápida y con tiempos de respuesta mínimos, para poder agilizar la búsqueda de información y mejorar la eficiencia al atender a múltiples clientes de forma simultánea. 
-
 **Pruebas de aceptación**
 - Descripción de la primera comprobación a realizar:
     - Se crea un cliente con un pago pendiente
@@ -254,6 +234,27 @@ Como recepcionista, quiero que el acceso a los datos de los clientes y sus masco
     - Se crea una muestra con un ID único
     - Se crea una segunda muestra y se le intenta asignar el mismo ID que la primera muestra.
     - Se recibe un error porque ese ID ya está asignado a una muestra.
+
+
+### 4.2. Mapa de historias de usuario (opcional)
+
+### 4.3. Requisitos no funcionales (opcional)
+
+**R.N.F. 01. Control de acceso**
+
+Como director de las clínicas,
+quiero que el sistema esté dividido en diferentes secciones para que solo las personas con autorización puedan acceder a los datos confidenciales de cada cliente,
+para cumplir con la Ley de Protección de Datos
+
+**R.N.F. 02. Disponibilidad garantizada**
+
+Como recepcionista de la clínica,
+quiero poder acceder a los datos de los clientes y de sus mascotas en todo momento,
+para que mi trabajo sea más eficiente.
+
+**R.N.F. 02. Tiempo de respuesta**
+Como recepcionista, quiero que el acceso a los datos de los clientes y sus mascotas se realice de forma rápida y con tiempos de respuesta mínimos, para poder agilizar la búsqueda de información y mejorar la eficiencia al atender a múltiples clientes de forma simultánea. 
+
 
 -- fin entregable 1 --
 
