@@ -77,36 +77,12 @@ Con la introducción de la base de datos, buscamos agilizar el proceso de búsqu
 
 #### 4.1.1. Requisitos de información
 
-#### R.I.01. Información para el cliente
+#### R.I.01. Información sobre los ususarios
 
-Como cliente de la clínica,
-quiero  disponer de la siguiente información sobre mis mascotas:
+Se podrá acceder a la siguiente información de los usuarios:
 
-- Edad de la mascota
-- Nombre de la mascota
-- Historial de citas
-- Historial de vacunación
-- Fecha de próxima revisión
-- Enfermedades/problemas
-- Historial de Pruebas
-- Número del microchip
-- Peso
-- Tamaño
-- Color
-- Raza
-- Sexo
-- Alergias
-- Por cada enfermedad o problema:
-    - Medicación necesaria
-    - Tiempo que tardó en pasarlo o en su defecto si sigue pasándolo
-
-#### R.I.02. Información como recepcionista
-
-Como recepcionista,
-quiero acceder a la siguiente información sobre los **clientes**:
-
-- Edad del cliente
-- Nombre del cliente
+- Fecha de nacimiento
+- Nombre 
 - DNI
 - Teléfono
 - Correo electrónico
@@ -114,77 +90,111 @@ quiero acceder a la siguiente información sobre los **clientes**:
 - Historial de citas
 - Siguiente cita
 - Cantidad de mascotas
-- Para cada mascota:
-    - Nombre de la mascota
-    - Edad de la mascota
-    - Peso
-    - Color
-    - Tamaño
-    - Raza
-    - Sexo
-    - Alergias
+
+
+#### R.I.02. Información sobre las mascotas
+
+Se podrá acceder a la siguiente información sobre las mascotas:
+
+-Fecha de nacimiento
+-Nombre de la mascota
+-Historial de citas
+-Historial de vacunación
+-Fecha de próxima revisión
+-Enfermedades/problemas
+-Historial de Pruebas
+-Número del microchip
+-Peso
+-Tamaño
+-Raza
+-Sexo
+-Alergias
+-Por cada enfermedad o problema:
+  -Medicación necesaria
+  -Tiempo que tardó en pasarlo o en su defecto si sigue pasandolo
+
  
-#### R.I.03. Información como recepcionista
+#### R.I.03. Información sobre cada clínica
 
-Como director general,
-quiero acceder a la siguiente información sobre mis **clínicas**:
+Sobre las clínicas se podrá acceder a la siguiente información:
 
-- Localización de la clínica
-- Nombre
-- Fecha de inauguración
-- Recaudación anual
-- Veterinarios
-- Sobre cada veterinario:
-    - Salario
-    - Nombre del veterinario
-    - DNI
-    - Edad
-    - Número de mascotas atendidas al mes
-    - Experiencia anterior a nuestras clínicas
+-Nombre 
+-Veterinarios 
+-Localización
+
  
-#### R.I.04. Información como veterinario
+#### R.I.04. Información sobre los veterinarios
 
-Como veterinario, 
-quiero acceder a la siguiente información sobre mis **clientes:**
+Sobre los veterinarios podremos acceder a la siguiente información:
 
-- Edad del cliente
-- Nombre del cliente
-- Historial de citas
-- Historial de Pruebas
-- Siguiente cita
-- Mascota que va a ser atendida
-- Para esta mascota:
-    - Nombre de la mascota
-    - Edad de la mascota
-    - Peso
-    - Raza
-    - Sexo
-    - Número del microchip
-    - Historial de pruebas
-    - Historial de vacunas
-    - Fecha de última revisión
-    - Alergias
-    - Problema actual de la mascota
+-Salario
+-Nombre del veterinario
+-DNI
+-Edad
+-Numero de telefono
+-Correo electrónico
+-Número de mascotas atendidas al mes
+-Citas de la semana
+-Centro de trabajo
+
  
-#### R.I.04. Información del gestor de pruebas
+#### R.I.05. Información sobre el gestor de pruebas
 
-Como gestor de pruebas,
-quiero acceder a la siguiente información sobre las **pruebas:**
+Se podrá acceder a la siguiente información sobre el gestor de pruebas:
 
-- Estado
-- ID de la prueba
-- Tipo
-- Fecha de emisión
-- Fecha de resolución
-- Resultado
-- Mascota sobre la que se realiza
-- Sobre la mascota:
-    - Microchip
-    - Alergias
-    - Enfermedades pasadas
-    - Nombre
-    - Tamaño
-    - Peso
+-Nombre
+-DNI
+-Edad
+-Numero de telefono
+-Correo electrónico
+-Salario
+-Pruebas realizadas
+
+
+#### R.I.06. Información sobre las pruebas
+Sobre las pruebas realizadas a las mascotas podremos acceder a la siguiente información:
+
+-Estado
+-ID de la prueba
+-Tipo
+-Fecha de emisión
+-Fecha de resolución
+-Resultado
+-Mascota sobre la que se realiza
+
+
+#### R.I.07. Información sobre el director general
+
+Sobre el director general podremos acceder a la siguiente información:
+
+-Nombre
+-Edad
+-Télefono 
+-Correo electrónico
+-Centros supervisados
+
+
+#### R.I.08. Información sobre las citas
+
+Sobre las citas se podrá acceder a la siguiente información:
+
+-Fecha
+-Duración
+-Estado
+-Cliente atendido
+-Veterinario
+
+
+#### R.I.09. Información sobre las vacunas
+
+Sobre las vacunas se podrá acceder a lo siguiente:
+
+-Nombre
+-Fecha de la vacuna
+-Mascota vacunada
+-Estado
+-Fecha próxima vacuna (si necesaria)
+
 
 #### 4.1.2. Reglas de negocio
 #### R.N.01. No eliminar clientes con pagos o pedidos pendientes
