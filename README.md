@@ -96,104 +96,104 @@ Se podrá acceder a la siguiente información de los usuarios:
 
 Se podrá acceder a la siguiente información sobre las mascotas:
 
--Fecha de nacimiento
--Nombre de la mascota
--Historial de citas
--Historial de vacunación
--Fecha de próxima revisión
--Enfermedades/problemas
--Historial de Pruebas
--Número del microchip
--Peso
--Tamaño
--Raza
--Sexo
--Alergias
--Por cada enfermedad o problema:
-  -Medicación necesaria
-  -Tiempo que tardó en pasarlo o en su defecto si sigue pasandolo
+- Fecha de nacimiento
+- Nombre de la mascota
+- Historial de citas
+- Historial de vacunación
+- Fecha de próxima revisión
+- Enfermedades/problemas
+- Historial de Pruebas
+- Número del microchip
+- Peso
+- Tamaño
+- Raza
+- Sexo
+- Alergias
+- Por cada enfermedad o problema:
+  - Medicación necesaria
+  - Tiempo que tardó en pasarlo o en su defecto si sigue pasandolo
 
  
 #### R.I.03. Información sobre cada clínica
 
 Sobre las clínicas se podrá acceder a la siguiente información:
 
--Nombre 
--Veterinarios 
--Localización
+- Nombre 
+- Veterinarios 
+- Localización
 
  
 #### R.I.04. Información sobre los veterinarios
 
 Sobre los veterinarios podremos acceder a la siguiente información:
 
--Salario
--Nombre del veterinario
--DNI
--Edad
--Numero de telefono
--Correo electrónico
--Número de mascotas atendidas al mes
--Citas de la semana
--Centro de trabajo
+- Salario
+- Nombre del veterinario
+- DNI
+- Fecha de nacimiento
+- Numero de telefono
+- Correo electrónico
+- Número de mascotas atendidas al mes
+- Citas de la semana
+- Centro de trabajo
 
  
 #### R.I.05. Información sobre el gestor de pruebas
 
 Se podrá acceder a la siguiente información sobre el gestor de pruebas:
 
--Nombre
--DNI
--Edad
--Numero de telefono
--Correo electrónico
--Salario
--Pruebas realizadas
+- Nombre
+- DNI
+- Fecha de nacimiento
+- Numero de telefono
+- Correo electrónico
+- Salario
+- Pruebas realizadas
 
 
 #### R.I.06. Información sobre las pruebas
 Sobre las pruebas realizadas a las mascotas podremos acceder a la siguiente información:
 
--Estado
--ID de la prueba
--Tipo
--Fecha de emisión
--Fecha de resolución
--Resultado
--Mascota sobre la que se realiza
+- Estado
+- ID de la prueba
+- Tipo
+- Fecha de emisión
+- Fecha de resolución
+- Resultado
+- Mascota sobre la que se realiza
 
 
 #### R.I.07. Información sobre el director general
 
 Sobre el director general podremos acceder a la siguiente información:
 
--Nombre
--Edad
--Télefono 
--Correo electrónico
--Centros supervisados
+- Nombre
+- Edad
+- Télefono 
+- Correo electrónico
+- Centros supervisados
 
 
 #### R.I.08. Información sobre las citas
 
 Sobre las citas se podrá acceder a la siguiente información:
 
--Fecha
--Duración
--Estado
--Cliente atendido
--Veterinario
+- Fecha
+- Duración
+- Estado
+- Cliente atendido
+- Veterinario
 
 
 #### R.I.09. Información sobre las vacunas
 
 Sobre las vacunas se podrá acceder a lo siguiente:
 
--Nombre
--Fecha de la vacuna
--Mascota vacunada
--Estado
--Fecha próxima vacuna (si necesaria)
+- Nombre
+- Fecha de la vacuna
+- Mascota vacunada
+- Estado
+- Fecha próxima vacuna (si necesaria)
 
 
 #### 4.1.2. Reglas de negocio
