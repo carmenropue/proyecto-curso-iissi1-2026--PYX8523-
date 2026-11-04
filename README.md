@@ -274,7 +274,7 @@ Como recepcionista, quiero que el acceso a los datos de los clientes y sus masco
 
 - con restricciones.
   
-  ![Vista previa de la documentación](./clases_V1.2.draw.io.svg).
+  ![Vista previa de la documentación](./clases_V1.2.drawio.svg).
 
 ### 5.2. Escenarios de prueba
 
