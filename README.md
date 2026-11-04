@@ -317,6 +317,21 @@ Como recepcionista, quiero que el acceso a los datos de los clientes y sus masco
 | RN-4  |          | X         | X        |          |      |       |        |         |
 | RN-5  |          |           |          |          |      | X     |        |         |
 
+
+|       | Cliente  | Empleado  | Clinica  | Mascota  | Cita | Prueba| Vacuna |Dir. Gen.|
+|:------|:---------|:----------|:---------|:---------|:-----|:------|:-------|:--------|
+| RF-1  | X        | X         |          |          |X     |       |        |         |
+| RF-2  |          | X         |          |          |      |       |        | X       |
+| RF-3  | X        | X         |          | X        | X    |       |        |         |
+| RF-4  |          |           | X        |          |      |       |        | X       |
+| RF-5  |          | X         |          |          |      | X     |        |         |
+| RF-6  | X        | X         |          | X        |      | X     |        |         |
+| RF-7  | X        | X         |          | X        | X    |       |        |         |
+| RF-8  | X        |           |          |          | X    |       |        | X       |
+| RF-9  | X        |           |          |          | X    |       |        | X       |
+| RF-10 |          | X         |          |          | X    |       |        | X       |
+
+
 |       | Cliente  | Empleado  | Clinica  | Mascota  | Cita | Prueba| Vacuna |Dir. Gen.|
 |:------|:---------|:----------|:---------|:---------|:-----|:------|:-------|:--------|
 | RnF-1 | X        |           |          |          |      |       |        | X       |
