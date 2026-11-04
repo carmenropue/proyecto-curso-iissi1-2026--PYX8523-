@@ -65,25 +65,25 @@ Con la introducción de la base de datos, buscamos agilizar el proceso de búsqu
   #### R.F.03.**Datos técnicos de la mascota**:
   Como veterinario de la clínica quiero poder añadir a la ficha médica de la mascota los resultados de la consulta, lo pendiente para la         próxima cita y poder modificar algún dato si fuera necesario.
 
-  #### R.F.05.**Cuentas de las clínicas**:
+  #### R.F.04.**Cuentas de las clínicas**:
   Como director general quiero poder acceder a las cuentas de cada clínica, de manera semanal, mensual y anual, pudiendo a su vez realizar gráficas que comparan los ingresos y pérdidas de las mismas.
 
-  #### R.F.06.**Modificar los datos de las pruebas**:
+  #### R.F.05.**Modificar los datos de las pruebas**:
   Como gestor de muestras quiero tener la posibilidad de acceder a los datos de las pruebas que realicemos y poder modificar los mismos añadiendo los datos de las muestras analizadas en última instancia.
 
-  #### R.F.07.**Muestras pendientes**:
+  #### R.F.06.**Muestras pendientes**:
   Como gestor de muestras quiero consultar todas las muestras pendientes de analizar, mostrando el nombre de la mascota, el cliente al que pertenece y el veterinario que solicitó el análisis.
 
-  #### R.F.08.**Citas del día**:
+  #### R.F.07.**Citas del día**:
   Como recepcionista quiero saber el nombre del cliente, el nombre de la mascota y la hora de todas las citas gestionadas para hoy.
 
-  #### R.F.09.**Consultar número de visitas**:
+  #### R.F.08.**Consultar número de visitas**:
   Como director general quiero ver el número total de visitas en los últimos 3 meses de cada cliente.
 
-  #### R.F.10.**Mejor cliente**:
+  #### R.F.09.**Mejor cliente**:
   Como director general quiero ver quién es el cliente que más ha acudido a nuestras clínicas.
 
-  #### R.F.11.**Veterinario con más consultas**:
+  #### R.F.10.**Veterinario con más consultas**:
   Como director general quiero saber qué veterinario ha atendido más mascotas durante los últimos 3 meses, mostrando su nombre y el número total de consultas realizadas.
 
 
