@@ -273,6 +273,8 @@ Como recepcionista, quiero que el acceso a los datos de los clientes y sus masco
 ### 5.1. Diagramas de clases UML
 
 - con restricciones.
+  
+  ![Vista previa de la documentación](./clases_V1.2.draw.io.svg).
 
 ### 5.2. Escenarios de prueba
 
