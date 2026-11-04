@@ -295,16 +295,33 @@ Como recepcionista, quiero que el acceso a los datos de los clientes y sus masco
 ## 6. Matrices de trazabilidad
 
 - Matriz de trazabilidad entre los elementos del modelo conceptual y los requisitos.
+  
+|       | Cliente  | Empleado  | Clinica  | Mascota  | Cita | Prueba| Vacuna |Dir. Gen.|
+|:------|:---------|:----------|:---------|:---------|:-----|:------|:-------|:--------|
+| RI-1  | X        | X         |          |          |      |       |        |         |
+| RI-2  |          |           |          | X        |      |       | X      |         |
+| RI-3  |          |           | X        |          |      |       |        |         |
+| RI-4  |          | X         | X        |          |      |       |        |         |
+| RI-5  |          | X         |          |          |      | X     |        |         |
+| RI-6  |          |           |          | X        |      | X     |        |         |
+| RI-7  |          | X         | X        |          |      |       |        |         |
+| RI-8  | X        | X         |          |          | X    |       |        |         |
+| RI-9  |          |           |          | X        |      |       | X      |         |
 
-|       | EntidadX   | AsociaciónX  | RestricciónX  | Entidad2 ...   | 
-|:------|:-----------|:-----------|:-----------|:-----------|
-| RI-1  | X          | X          | X          | X          |
-| RI-2  |            | X          |            | X          |
-| RF-1  |            | X          |            | X          |
-| RF-2  | X          |            | X          | X          |
-| RN-1  |            | X          |            |            |
-| RN-2  | X          | X          | X          |            |
-| ...   |            |            |            |            |
+
+|       | Cliente  | Empleado  | Clinica  | Mascota  | Cita | Prueba| Vacuna |Dir. Gen.|
+|:------|:---------|:----------|:---------|:---------|:-----|:------|:-------|:--------|
+| RN-1  | X        |           |          |          | X    |       |        |         |
+| RN-2  | X        |           |          |          | X    |       |        |         |
+| RN-3  |          |           |          | X        |      |       |        |         |
+| RN-4  |          | X         | X        |          |      |       |        |         |
+| RN-5  |          |           |          |          |      | X     |        |         |
+
+|       | Cliente  | Empleado  | Clinica  | Mascota  | Cita | Prueba| Vacuna |Dir. Gen.|
+|:------|:---------|:----------|:---------|:---------|:-----|:------|:-------|:--------|
+| RnF-1 | X        |           |          |          |      |       |        | X       |
+| RnF-2 | X        | X         |          | X        |      |       |        |         |
+| RnF-3 | X        | X         |          | X        | X    |       |        |         |
 
 -- fin entregable 2 --
 
