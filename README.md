@@ -209,9 +209,9 @@ Sobre las vacunas se podrá acceder a lo siguiente:
 
 
 #### 4.1.2. Reglas de negocio
-#### R.N.01. No eliminar clientes con pagos o pedidos pendientes
+#### R.N.01. No emitir resultados de pruebas anteriores a su emisión
 
-Como recepcionista quiero que no se pueda eliminar el historial de pagos o pedidos de ningún cliente siempre que estos estén pendientes.
+Un gestor de pruebas solo puede emitir el resultado de una prueba si la fecha de resolución es posterior a la fecha de emisión.
 
 #### R.N.02. No solapar citas clínicas
 
