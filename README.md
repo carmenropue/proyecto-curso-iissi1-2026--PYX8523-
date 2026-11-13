@@ -300,47 +300,47 @@ El gestor de pruebas "Jesús" consulta la prueba "PR-001", correspondiente a una
 
 - Matriz de trazabilidad entre los elementos del modelo conceptual y los requisitos.
   
-|       | Cliente  | Empleado  | Clinica  | Mascota  | Cita | Prueba| Vacuna |Dir. Gen.|
-|:------|:---------|:----------|:---------|:---------|:-----|:------|:-------|:--------|
-| RI-1  | X        | X         |          |          |      |       |        |         |
-| RI-2  |          |           |          | X        |      |       | X      |         |
-| RI-3  |          |           | X        |          |      |       |        |         |
-| RI-4  |          | X         | X        |          |      |       |        |         |
-| RI-5  |          | X         |          |          |      | X     |        |         |
-| RI-6  |          |           |          | X        |      | X     |        |         |
-| RI-7  |          | X         | X        |          |      |       |        |         |
-| RI-8  | X        | X         |          |          | X    |       |        |         |
-| RI-9  |          |           |          | X        |      |       | X      |         |
+|       | Cliente  | Empleado  | Clinica  | Mascota  | Cita | Prueba| Vacuna |Dir. Gen.|GestorDePruebas-Usuario|Veterinario-Usuario|Recepcionista-Usuario|DirectorGeneral-Usuario|Pide|Tiene|Analiza|Solicita|Atiende|Visita|Trabaja|Gestiona|SeHaceA|SeRealizaEn|Padece|EsInyectadaA|
+|:------|:---------|:----------|:---------|:---------|:-----|:------|:-------|:--------|:------|:------|:-------|:-------|:-------|:-------|:-------|:-------|:-------|:-------|:-------|:-------|:-------|:-------|:-------|:-------|
+| RI-1  | X        | X         |          |          |      |       |        |         |       |       |        |        |        |        |        |        |        |        |        |        |        |        |        |        |
+| RI-2  |          |           |          | X        |      |       | X      |         |       |       |        |        |        |        |        |        |        |        |        |        |        |        |        |        |
+| RI-3  |          |           | X        |          |      |       |        |         |       |       |        |        |        |        |        |        |        |        |        |        |        |        |        |        |
+| RI-4  |          | X         | X        |          |      |       |        |         |       |       |        |        |        |        |        |        |        |        |        |        |        |        |        |        |
+| RI-5  |          | X         |          |          |      | X     |        |         |       |       |        |        |        |        |        |        |        |        |        |        |        |        |        |        |
+| RI-6  |          |           |          | X        |      | X     |        |         |       |       |        |        |        |        |        |        |        |        |        |        |        |        |        |        |
+| RI-7  |          | X         | X        |          |      |       |        |         |       |       |        |        |        |        |        |        |        |        |        |        |        |        |        |        |
+| RI-8  | X        | X         |          |          | X    |       |        |         |       |       |        |        |        |        |        |        |        |        |        |        |        |        |        |        |
+| RI-9  |          |           |          | X        |      |       | X      |         |       |       |        |        |        |        |        |        |        |        |        |        |        |        |        |        |
 
 
-|       | Cliente  | Empleado  | Clinica  | Mascota  | Cita | Prueba| Vacuna |Dir. Gen.|
-|:------|:---------|:----------|:---------|:---------|:-----|:------|:-------|:--------|
-| RN-1  | X        |           |          |          | X    |       |        |         |
-| RN-2  | X        |           |          |          | X    |       |        |         |
-| RN-3  |          |           |          | X        |      |       |        |         |
-| RN-4  |          | X         | X        |          |      |       |        |         |
-| RN-5  |          |           |          |          |      | X     |        |         |
+|       | Cliente  | Empleado  | Clinica  | Mascota  | Cita | Prueba| Vacuna |Dir. Gen.|GestorDePruebas-Usuario|Veterinario-Usuario|Recepcionista-Usuario|DirectorGeneral-Usuario|Pide|Tiene|Analiza|Solicita|Atiende|Visita|Trabaja|Gestiona|SeHaceA|SeRealizaEn|Padece|EsInyectadaA|
+|:------|:---------|:----------|:---------|:---------|:-----|:------|:-------|:--------|:------|:------|:-------|:-------|:-------|:-------|:-------|:-------|:-------|:-------|:-------|:-------|:-------|:-------|:-------|:-------|
+| RN-1  | X        |           |          |          | X    |       |        |         |       |       |        |        |        |        |        |        |        |        |        |        |        |        |        |        |
+| RN-2  | X        |           |          |          | X    |       |        |         |       |       |        |        |        |        |        |        |        |        |        |        |        |        |        |        |
+| RN-3  |          |           |          | X        |      |       |        |         |       |       |        |        |        |        |        |        |        |        |        |        |        |        |        |        |
+| RN-4  |          | X         | X        |          |      |       |        |         |       |       |        |        |        |        |        |        |        |        |        |        |        |        |        |        |
+| RN-5  |          |           |          |          |      | X     |        |         |       |       |        |        |        |        |        |        |        |        |        |        |        |        |        |        |
 
 
-|       | Cliente  | Empleado  | Clinica  | Mascota  | Cita | Prueba| Vacuna |Dir. Gen.|
-|:------|:---------|:----------|:---------|:---------|:-----|:------|:-------|:--------|
-| RF-1  | X        | X         |          |          |X     |       |        |         |
-| RF-2  |          | X         |          |          |      |       |        | X       |
-| RF-3  | X        | X         |          | X        | X    |       |        |         |
-| RF-4  |          |           | X        |          |      |       |        | X       |
-| RF-5  |          | X         |          |          |      | X     |        |         |
-| RF-6  | X        | X         |          | X        |      | X     |        |         |
-| RF-7  | X        | X         |          | X        | X    |       |        |         |
-| RF-8  | X        |           |          |          | X    |       |        | X       |
-| RF-9  | X        |           |          |          | X    |       |        | X       |
-| RF-10 |          | X         |          |          | X    |       |        | X       |
+|       | Cliente  | Empleado  | Clinica  | Mascota  | Cita | Prueba| Vacuna |Dir. Gen.|GestorDePruebas-Usuario|Veterinario-Usuario|Recepcionista-Usuario|DirectorGeneral-Usuario|Pide|Tiene|Analiza|Solicita|Atiende|Visita|Trabaja|Gestiona|SeHaceA|SeRealizaEn|Padece|EsInyectadaA|
+|:------|:---------|:----------|:---------|:---------|:-----|:------|:-------|:--------|:------|:------|:-------|:-------|:-------|:-------|:-------|:-------|:-------|:-------|:-------|:-------|:-------|:-------|:-------|:-------|
+| RF-1  | X        | X         |          |          |X     |       |        |         |       |       |        |        |        |        |        |        |        |        |        |        |        |        |        |        |
+| RF-2  |          | X         |          |          |      |       |        | X       |       |       |        |        |        |        |        |        |        |        |        |        |        |        |        |        |
+| RF-3  | X        | X         |          | X        | X    |       |        |         |       |       |        |        |        |        |        |        |        |        |        |        |        |        |        |        |
+| RF-4  |          |           | X        |          |      |       |        | X       |       |       |        |        |        |        |        |        |        |        |        |        |        |        |        |        |
+| RF-5  |          | X         |          |          |      | X     |        |         |       |       |        |        |        |        |        |        |        |        |        |        |        |        |        |        |
+| RF-6  | X        | X         |          | X        |      | X     |        |         |       |       |        |        |        |        |        |        |        |        |        |        |        |        |        |        |
+| RF-7  | X        | X         |          | X        | X    |       |        |         |       |       |        |        |        |        |        |        |        |        |        |        |        |        |        |        |
+| RF-8  | X        |           |          |          | X    |       |        | X       |       |       |        |        |        |        |        |        |        |        |        |        |        |        |        |        |
+| RF-9  | X        |           |          |          | X    |       |        | X       |       |       |        |        |        |        |        |        |        |        |        |        |        |        |        |        |
+| RF-10 |          | X         |          |          | X    |       |        | X       |       |       |        |        |        |        |        |        |        |        |        |        |        |        |        |        |
 
 
-|       | Cliente  | Empleado  | Clinica  | Mascota  | Cita | Prueba| Vacuna |Dir. Gen.|
-|:------|:---------|:----------|:---------|:---------|:-----|:------|:-------|:--------|
-| RnF-1 | X        |           |          |          |      |       |        | X       |
-| RnF-2 | X        | X         |          | X        |      |       |        |         |
-| RnF-3 | X        | X         |          | X        | X    |       |        |         |
+|       | Cliente  | Empleado  | Clinica  | Mascota  | Cita | Prueba| Vacuna |Dir. Gen.|GestorDePruebas-Usuario|Veterinario-Usuario|Recepcionista-Usuario|DirectorGeneral-Usuario|Pide|Tiene|Analiza|Solicita|Atiende|Visita|Trabaja|Gestiona|SeHaceA|SeRealizaEn|Padece|EsInyectadaA|
+|:------|:---------|:----------|:---------|:---------|:-----|:------|:-------|:--------|:------|:------|:-------|:-------|:-------|:-------|:-------|:-------|:-------|:-------|:-------|:-------|:-------|:-------|:-------|:-------|
+| RnF-1 | X        |           |          |          |      |       |        | X       |       |       |        |        |        |        |        |        |        |        |        |        |        |        |        |        |
+| RnF-2 | X        | X         |          | X        |      |       |        |         |       |       |        |        |        |        |        |        |        |        |        |        |        |        |        |        |
+| RnF-3 | X        | X         |          | X        | X    |       |        |         |       |       |        |        |        |        |        |        |        |        |        |        |        |        |        |        |
 
 -- fin entregable 2 --
 
