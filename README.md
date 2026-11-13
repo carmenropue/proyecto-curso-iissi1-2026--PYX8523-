@@ -347,6 +347,71 @@ El gestor de pruebas "Jesús" consulta la prueba "PR-001", correspondiente a una
 ## 7. Modelo relacional en 3FN
 
 - Relaciones obtenidas al aplicar la transformación del modelo conceptual.
++ Usuarios(usuarioId, dni, nombre, fechaNacimiento, correoElectronico, telefono)
+          PK(usuarioId)
+          AK(dni)
+
++ Clientes(clienteId, direccionPostal)
+          PK(clienteId)
+          FK(usuarioId)/Usuarios
+
++ Gestores_Pruebas(gestorPruebasId, salario)
+          PK(gestorPruebasId)
+          FK(usuatioId)/Usuarios
+
++ Veterinarios(veterinarioId, salario)
+          PK(veterinarioId)
+          FK(usuarioID)/Usuarios
+
++ Recepcionistas(recepcionistaId, salario)
+          PK(recepcionistaId)
+          FK(usuarioId)/Usuarios
+          FK(clinicaId)/Clinicas
+      
++ Director_General(directorGeneralId, salario)
+          PK(directorGeneralId)
+          FK(usuarioId)/Usuarios
+
++ Pruebas(pruebaId, tipo, estadoPrueba, fechaEmision, fechaResolucion, resultado)
+          PK(pruebaId)
+          FK(gestorPruebasId)/Gestores_Pruebas
+          FK(veterinarioId)/Veterinarios
+          FK(mascotaId)/Mascotas
+
++ Mascotas(mascotaId, numeroMicrochip, especie, fechaNacimiento, nombre, peso, raza, sexo)
+          PK(mascotaId)
+          AK(numeroMicrochip)
+          FK(clienteId)/Clientes
+
++ Enfermedades(enfermedadId, descripcion, duracion, medicacion)
+          ????PK(enfermedadId)
+          FK(mascotaId)/Mascotas
+          AK(mascotaId, enfermedadId)???
+
++ Vacunas(nombre, fecha, estadoVacuna)
+          ????
+          FK(masscotaId)/Mascotas
+
++ Citas(¿citaId?, fechaCita, duracion, estado)
+          ???
+          FK(clienteId)/Clientes
+          FK(veterinarioId)/Veterinarios
+          FK(mascotaId)/Mascotas
+          FK(clinicaId)/Clinicas
+
++ Clinicas(clinicaId, nombre, localizacion)
+          PK(clinicaId)
+          AK(nombre¿)
+          FK(directorId)/Director
+
++ VeterinariosClinicas(veterinarioClinicaId, veterinarioId, cliniccaId)
+          PK(VeterinarioClinicaId)
+          FK(veterinarioId)/Veterinarios
+          FK(clinicaId)/Clinicas
+          AK(veterinarioId, clinicaId)
+
+
+
 
 ### 7.1.  Justificación de la estrategia de transformación de jerarquías
 
