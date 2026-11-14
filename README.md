@@ -347,68 +347,106 @@ El gestor de pruebas "Jesús" consulta la prueba "PR-001", correspondiente a una
 ## 7. Modelo relacional en 3FN
 
 - Relaciones obtenidas al aplicar la transformación del modelo conceptual.
+
+
 + Usuarios(usuarioId, dni, nombre, fechaNacimiento, correoElectronico, telefono)
-          PK(usuarioId)
-          AK(dni)
+
+    PK(usuarioId)
+
+    AK(dni)
 
 + Clientes(clienteId, direccionPostal)
-          PK(clienteId)
-          FK(usuarioId)/Usuarios
+
+    PK(clienteId)
+    FK(usuarioId)/Usuarios
 
 + Gestores_Pruebas(gestorPruebasId, salario)
-          PK(gestorPruebasId)
-          FK(usuatioId)/Usuarios
+
+    PK(gestorPruebasId)
+    
+    FK(usuatioId)/Usuarios
 
 + Veterinarios(veterinarioId, salario)
-          PK(veterinarioId)
-          FK(usuarioID)/Usuarios
+
+    PK(veterinarioId)
+
+    FK(usuarioID)/Usuarios
 
 + Recepcionistas(recepcionistaId, salario)
-          PK(recepcionistaId)
-          FK(usuarioId)/Usuarios
-          FK(clinicaId)/Clinicas
+
+    PK(recepcionistaId)
+
+    FK(usuarioId)/Usuarios
+
+    FK(clinicaId)/Clinicas
       
 + Director_General(directorGeneralId, salario)
-          PK(directorGeneralId)
-          FK(usuarioId)/Usuarios
+
+    PK(directorGeneralId)
+
+    FK(usuarioId)/Usuarios
 
 + Pruebas(pruebaId, tipo, estadoPrueba, fechaEmision, fechaResolucion, resultado)
-          PK(pruebaId)
-          FK(gestorPruebasId)/Gestores_Pruebas
-          FK(veterinarioId)/Veterinarios
-          FK(mascotaId)/Mascotas
+
+    PK(pruebaId)
+
+    FK(gestorPruebasId)/Gestores_Pruebas
+
+    FK(veterinarioId)/Veterinarios
+
+    FK(mascotaId)/Mascotas
 
 + Mascotas(mascotaId, numeroMicrochip, especie, fechaNacimiento, nombre, peso, raza, sexo)
-          PK(mascotaId)
-          AK(numeroMicrochip)
-          FK(clienteId)/Clientes
+
+    PK(mascotaId)
+
+    AK(numeroMicrochip)
+
+    FK(clienteId)/Clientes
 
 + Enfermedades(enfermedadId, descripcion, duracion, medicacion)
-          ????PK(enfermedadId)
-          FK(mascotaId)/Mascotas
-          AK(mascotaId, enfermedadId)???
 
-+ Vacunas(nombre, fecha, estadoVacuna)
-          ????
-          FK(masscotaId)/Mascotas
+    PK(enfermedadId)
 
-+ Citas(¿citaId?, fechaCita, duracion, estado)
-          ???
-          FK(clienteId)/Clientes
-          FK(veterinarioId)/Veterinarios
-          FK(mascotaId)/Mascotas
-          FK(clinicaId)/Clinicas
+    FK(mascotaId)/Mascotas
+
+    AK(mascotaId, enfermedadId)
+
++ Vacunas(vacunaId, nombre, fecha, estadoVacuna)
+         
+    PK(vacunaId)
+    
+    FK(mascotaId)/Mascotas
+
++ Citas(citaId, fechaCita, duracion, estado)
+          
+    PK(citaId)
+    
+    FK(clienteId)/Clientes
+    
+    FK(veterinarioId)/Veterinarios
+    
+    FK(mascotaId)/Mascotas
+    
+    FK(clinicaId)/Clinicas
 
 + Clinicas(clinicaId, nombre, localizacion)
-          PK(clinicaId)
-          AK(nombre¿)
-          FK(directorId)/Director
+          
+    PK(clinicaId)
+    
+    AK(nombre¿)
+   
+    FK(directorId)/Director
 
 + VeterinariosClinicas(veterinarioClinicaId, veterinarioId, cliniccaId)
-          PK(VeterinarioClinicaId)
-          FK(veterinarioId)/Veterinarios
-          FK(clinicaId)/Clinicas
-          AK(veterinarioId, clinicaId)
+   
+    PK(VeterinarioClinicaId)
+   
+    FK(veterinarioId)/Veterinarios
+   
+    FK(clinicaId)/Clinicas
+   
+    AK(veterinarioId, clinicaId)
 
 
 
