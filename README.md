@@ -358,19 +358,20 @@ El gestor de pruebas "Jesús" consulta la prueba "PR-001", correspondiente a una
 + Clientes(clienteId, direccionPostal)
 
     PK(clienteId)
+    
     FK(usuarioId)/Usuarios
 
 + Gestores_Pruebas(gestorPruebasId, salario)
 
     PK(gestorPruebasId)
     
-    FK(usuatioId)/Usuarios
+    FK(usuarioId)/Usuarios
 
 + Veterinarios(veterinarioId, salario)
 
     PK(veterinarioId)
 
-    FK(usuarioID)/Usuarios
+    FK(usuarioId)/Usuarios
 
 + Recepcionistas(recepcionistaId, salario)
 
@@ -410,7 +411,7 @@ El gestor de pruebas "Jesús" consulta la prueba "PR-001", correspondiente a una
 
     FK(mascotaId)/Mascotas
 
-    AK(mascotaId, enfermedadId)
+    AK(mascotaId, descripcion)
 
 + Vacunas(vacunaId, nombre, fecha, estadoVacuna)
          
@@ -434,11 +435,11 @@ El gestor de pruebas "Jesús" consulta la prueba "PR-001", correspondiente a una
           
     PK(clinicaId)
     
-    AK(nombre¿)
+    AK(nombre)
    
-    FK(directorId)/Director
+    FK(directorGeneralId)/Director_General
 
-+ VeterinariosClinicas(veterinarioClinicaId, veterinarioId, cliniccaId)
++ VeterinariosClinicas(veterinarioClinicaId, veterinarioId, clinicaId)
    
     PK(VeterinarioClinicaId)
    
@@ -453,7 +454,7 @@ El gestor de pruebas "Jesús" consulta la prueba "PR-001", correspondiente a una
 
 ### 7.1.  Justificación de la estrategia de transformación de jerarquías
 
-- si se identificaron jerarquías en el MC.
+En el modelo conceptual existe una jerarquía, la herencia de Usuario, con las subclases Cliente, Gestor de pruebas, Veterinario, Recepcionista y Director general. La estrategi elegida es una relación por cada clase. En este caso, cada subclase tiene un identificador propio como clave primaria y una clave foránea usuarioId hacia Usuarios. Se ha elegido esta estrategia porque cada subclase tiene asociaciones distintas, los datos comunes se definen solo una vez y prevenimos muchos valores nulos.
 
 
 ### 8. Matriz de trazabilidad MC/SQL (opcional):
