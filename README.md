@@ -303,15 +303,15 @@ El gestor de pruebas "Jesús" consulta la prueba "PR-001", correspondiente a una
   
 |       | Cliente  | Empleado  | Clinica  | Mascota  | Cita | Prueba| Vacuna |Dir. Gen.|Pide|Tiene|Analiza|Solicita|Atiende|Visita|Trabaja|Gestiona|seHaceA|seRealizaEn|Padece|esInyectadaA|acudeA|
 |:------|:---------|:----------|:---------|:---------|:-----|:------|:-------|:--------|:------|:------|:-------|:-------|:-------|:-------|:-------|:-------|:-------|:-------|:-------|:-------|:-------|
-| RI-1  | X        | X         |          |          |      |       |        |         | X      | X      |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        |
+| RI-1  | X        | X         |          |          |      |       |        |         | X      | X      |        |        |        |        |        |        |        |        |        |        |        |
 | RI-2  |          |           |          | X        |      |       | X      |         |       |       |        |        |        |        |        |        |        |        |        |        | X       |        | X       |        | X       |
-| RI-3  |          |           | X        |          |      |       |        |         |       |       |        |        |        | X       |        |        |        |        |        |        |        |        |        |        |        |
-| RI-4  |          | X         | X        |          |      |       |        |         |       |       |        |        | X       | X       |        |        |        |        |        |        |        |        |        |        |        |
+| RI-3  |          |           | X        |          |      |       |        |         |       |       |        |        |        | X       |        |        |        |        |        |        |        |
+| RI-4  |          | X         | X        |          |      |       |        |         |       |       |        |        | X       | X       |        |        |        |        |        |        |        |
 | RI-5  |          | X         |          |          |      | X     |        |         |       |       | X       |        |        |        |        |        |        |        |        |        |        |
 | RI-6  |          |           |          | X        |      | X     |        |         |       |       |        |        |        |        |        |        | X       |        |        |        |        |
 | RI-7  |          | X         | X        |          |      |       |        |         |       |       |        |        |        |        |        | X       |        |        |        |        |        |
-| RI-8  | X        | X         |          |          | X    |       |        |         |       |       |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        |
-| RI-9  |          |           |          | X        |      |       | X      |         |       |       |        |        |        |        |        |        |        |        |        |        |        |        |        |        |        |
+| RI-8  | X        | X         |          |          | X    |       |        |         | X      |       |        |        | X       |        |        |        |        |        |        |        |        |
+| RI-9  |          |           |          | X        |      |       | X      |         |       |       |        |        |        |        |        |        |        |        |        | X       |        |
 
 
 |       | Cliente  | Empleado  | Clinica  | Mascota  | Cita | Prueba| Vacuna |Dir. Gen.|Pide|Tiene|Analiza|Solicita|Atiende|Visita|Trabaja|Gestiona|seHaceA|seRealizaEn|Padece|esInyectadaA|acudeA|
