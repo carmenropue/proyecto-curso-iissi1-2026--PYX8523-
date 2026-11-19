@@ -286,15 +286,16 @@ Como recepcionista, quiero que el acceso a los datos de los clientes y sus masco
 
 - con restricciones.
   
-  ![Vista previa de la documentación](./clases_V2.drawio.svg).
+  ![Vista previa de la documentación](./DIAGRAMA_VETERINARIA.drawio.svg).
 
 ### 5.2. Escenarios de prueba
 #### 1. Atención de cita médica
 El cliente "Carlos" acude a la clinica "clinicaNervion" para que atiendan a su mascota "Tony" en una cita ("cita102"). La veterinaria "Carmen" atiende la consulta, se le administra una vacuna "vacRabia" y se ordena un analisis de sangre "PruebaSangre". Cuyo estado es "Recibido" y llega a ser analizada por la gestora de pruebas "gestoraElene".
+  ![Vista previa de la documentación](./PRUEBA_EJEMPLO_1.drawio.svg).
 
 #### 2. Consulta de prueba
-El gestor de pruebas "Jesús" consulta la prueba "PR-001", correspondiente a una radiografía de la mascota "Kira". El resultado de la prueba fue emitida el "11 de noviembre de 2026" y ha sido catalogada como "Luxación". Se ordena una nueva cita para el 13 de diciembre de 2026 para ser analizada por el veterinario "Juan".
-
+El gestor de pruebas "Jesús" consulta la prueba "PR-001", correspondiente a una radiografía de la mascota "Kira". El resultado de la prueba fue emitida el "11 de noviembre de 2026" y ha sido catalogada como "Luxación". El cliente solicita una nueva cita para el 13 de diciembre de 2026 para ser analizada por el veterinario "Juan".
+  ![Vista previa de la documentación](./PRUEBA_EJEMPLO_1.drawio.svg).
 
 ## 6. Matrices de trazabilidad
 
