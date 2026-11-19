@@ -125,7 +125,7 @@ CREATE TABLE Citas (
     citaId INT PRIMARY KEY AUTO_INCREMENT,
     fechaCita DATE NOT NULL,
     duracion INT NOT NULL CHECK (duracion > 0),
-    estado VARCHAR(50) NOT NULL,
+    estadoCita ENUM('Pendiente','Completado') NOT NULL DEFAULT 'Pendiente',
     clienteId INT NOT NULL,
     veterinarioId INT NOT NULL,
     mascotaId INT NOT NULL,
