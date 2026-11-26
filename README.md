@@ -331,7 +331,7 @@ El gestor de pruebas "Jesús" consulta la prueba "PR-001", correspondiente a una
 | RF-4  |          |           | X        |          |      |       |        | X       |       |       |        |        |        |        |        |        |        |        |        |        |        |
 | RF-5  |          | X         |          |          |      | X     |        |         |       |       | X       |        |        |        |        |        |        |        |        |        |        |
 | RF-6  | X        | X         |          | X        |      | X     |        |         |       | X      |        | X       |        |        |        |        | X       |        |        |        |        |
-| RF-7  | X        | X         |          | X        | X    |       |        |         |       |       |        |        |        |        |        |        |        |        |        |        |        |
+| RF-7  | X        | X         |          | X        | X    |       |        |         | X      |       |        |        |        |        |        |        |        |        |        |        | X       |
 | RF-8  | X        |           |          |          | X    |       |        | X       |       |       |        |        |        |        |        |        |        |        |        |        |        |
 | RF-9  | X        |           |          |          | X    |       |        | X       |       |       |        |        |        |        |        |        |        |        |        |        |        |
 | RF-10 |          | X         |          |          | X    |       |        | X       |       |       |        |        |        |        |        |        |        |        |        |        |        |
