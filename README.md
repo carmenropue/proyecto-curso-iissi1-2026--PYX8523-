@@ -317,7 +317,7 @@ El gestor de pruebas "Jesús" consulta la prueba "PR-001", correspondiente a una
 |       | Cliente  | Empleado  | Clinica  | Mascota  | Cita | Prueba| Vacuna |Dir. Gen.|Pide|Tiene|Analiza|Solicita|Atiende|Visita|Trabaja|Gestiona|seHaceA|seRealizaEn|Padece|esInyectadaA|acudeA|
 |:------|:---------|:----------|:---------|:---------|:-----|:------|:-------|:--------|:------|:------|:-------|:-------|:-------|:-------|:-------|:-------|:-------|:-------|:-------|:-------|:-------|
 | RN-1  | X        |           |          |          | X    |       |        |         |       |       | X       |        |        |        |        |        |        |        |        |        |        |
-| RN-2  | X        |           |          |          | X    |       |        |         |       |       |        |        |        |        |        |        |        |        |        |        |        |
+| RN-2  | X        |           |          |          | X    |       |        |         | X      |       |        |        | X       |        |        |        |        |        |        |        |        |
 | RN-3  |          |           |          | X        |      |       |        |         |       |       |        |        |        |        |        |        |        |        |        |        |        |
 | RN-4  |          | X         | X        |          |      |       |        |         |       |       |        |        |        |        |        |        |        |        |        |        |        |
 | RN-5  |          |           |          |          |      | X     |        |         |       |       |        |        |        |        |        |        |        |        |        |        |        |
