@@ -275,6 +275,7 @@ quiero poder acceder a los datos de los clientes y de sus mascotas en todo momen
 para que mi trabajo sea más eficiente.
 
 **R.N.F. 03. Tiempo de respuesta**
+
 Como recepcionista, quiero que el acceso a los datos de los clientes y sus mascotas se realice de forma rápida y con tiempos de respuesta mínimos, para poder agilizar la búsqueda de información y mejorar la eficiencia al atender a múltiples clientes de forma simultánea. 
 
 
@@ -340,7 +341,7 @@ El gestor de pruebas "Jesús" consulta la prueba "PR-001", correspondiente a una
 |       | Cliente  | Empleado  | Clinica  | Mascota  | Cita | Prueba| Vacuna |Dir. Gen.|Pide|Tiene|Analiza|Solicita|Atiende|Visita|Trabaja|Gestiona|seHaceA|seRealizaEn|Padece|esInyectadaA|acudeA|
 |:------|:---------|:----------|:---------|:---------|:-----|:------|:-------|:--------|:------|:------|:-------|:-------|:-------|:-------|:-------|:-------|:-------|:-------|:-------|:-------|:-------|
 | RnF-1 | X        |           |          |          |      |       |        | X       |       |       |        |        |        |        |        |        |        |        |        |        |        |
-| RnF-2 | X        | X         |          | X        |      |       |        |         |       |       |        |        |        |        |        |        |        |        |        |        |        |
+| RnF-2 | X        | X         |          | X        |      |       |        |         |       | X      |        |        |        |        |        |        |        |        |        |        |        |
 | RnF-3 | X        | X         |          | X        | X    |       |        |         |       |       |        |        |        |        |        |        |        |        |        |        |        |
 
 -- fin entregable 2 --
